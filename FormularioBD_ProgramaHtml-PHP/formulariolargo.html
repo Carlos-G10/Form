@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario Contacto</title>
+	<link rel="stylesheet" href="stylecontacto.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Contactanos</h1>
+		<p>Nos encantaria responder a todas tus preguntas y dudas</p>
+		<div class="contacto-caja">
+			<div class="contacto-izq">
+				<h3>Envia tus preguntas</h3>
+				<form id="contacto-caja" method="post" action="registro.php" autocomplete="off">
+					<div class="input-columna">
+						<div class="input-grupo">
+							<label>Nombre</label>
+							<input type="text" name="name" class="input" placeholder="Nombre Completo" required />
+						</div>
+						<div class="input-grupo">
+							<label>Telefono</label>
+							<input type="text" name="phone" class="input" placeholder="+52 1010101010" />
+						</div>
+					</div>
+					<div class="input-columna">
+						<div class="input-grupo">
+							<label>Email</label>
+							<input type="email" name="email" class="input" placeholder="ejemplo@correo.com" />
+						</div>
+						<div class="input-grupo">
+							<label>Asunto</label>
+							<input type="text" name="affair" class="input" placeholder="tema de interes" />
+						</div>
+					</div>
+					<div class="input-grupo textarea">
+						<label>Mensaje</label>
+						<textarea name="message" class="input" rows="5" placeholder="escribe tu mensaje"></textarea>
+						<input name="enviar" type="submit" value="Enviar" class="form-control submit" />
+                    </div>
+					</form>
+				</div>
+				<div class="contacto-der">
+					<h3>Encuentranos</h3>
+					<table>
+						<tr>
+							<td>Email</td>
+							<td>correoempresa@correo.com</td>
+						</tr>
+						<tr>
+							<tr>
+							<td>telefono</td>
+							<td>+52 10.10.10.10.10</td>
+						</tr>
+						<tr>
+							<td>Direccion</td>
+							<td>Av. de la amargura sin numero final</td><br>Monterrey,N.L.</br>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+</body>
+</html>
